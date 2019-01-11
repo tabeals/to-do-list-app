@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#E28406;
+	background-color: #F1EDC5;
+}
+h3 { 
+	align-self: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+form h1 {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	
+}
+
+
+.input{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+.clearitems{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+.listarea{
+	padding: 20px 0;
+}
+.inputfield{
+	width:25%;
+	height:25px;
+	margin-right:.25%;
+	border-color:#E28406;
+	border-style: solid;
+	border-radius:4px;
+	padding: 1px;
+}
+
+.additem {
+	background-color:#F1EDC5;
+	border-style: solid;
+	border-color:#E28406;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#E28406;
+	border-radius:4px;
+	font-size: 1.1em;
+	cursor:pointer;
+}
+.clear{
+	background-color:#F1EDC5;
+	border-style: solid;
+	border-color:#E28406;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#E28406;
+	height: 30px;
+	width: 10%;
+	font-size: 1.1em;
+	border-radius:4px;
+	cursor:pointer;
+}
+
+.additem:hover, .clear:hover{
+	background-color:#E28406;
+	border-style: solid;
+	color:#F1EDC5;
+	
+}
+
+.alert{
+	align-self: center;
+	color: red;
+	display:none;
+}
+.showitem{
+	
+	align-self: center;
+	color: red;
+}
+.demo {
+	display: flex;
+	flex-direction:column;
+	
+	justify-content:center;
+	align-items: center;
+	/*border: solid 1px red;*/
+	margin: 0 20%;
+	height:auto;
+	background:white;
+}
+
+
+	
+	
+	
+	
+
+.item {
+	display:inline;
+	align-self: flex-start;
+	flex-wrap: wrap;
+	
+
+}
+
+
+.ebutton {
+	
+	margin-left:3px;
+	background-color:#F1EDC5;
+	border-style: solid;
+	border-color:#E28406;
+	color:#E28406;
+	
+}
+.dbutton{
+	margin-left:3px;
+	background-color:#F1EDC5;
+	border-style: solid;
+	border-color:#E28406;
+	color:#E28406;
+}
